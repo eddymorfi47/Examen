@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.eddiemartnez.app.dep_recursos_humanos.activities.Login_Admin">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@color/bluegray"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:background="@drawable/header"
+            android:layout_width="match_parent"
+            android:layout_height="250dp" />
+
+        <EditText
+            android:id="@+id/usadmin"
+            android:layout_width="320dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:hint="Usuario"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light" />
+
+        <EditText
+            android:id="@+id/pwadmin"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:ems="10"
+            android:hint="Contraseña"
+            android:inputType="textPassword"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light" />
+
+        <Button
+            android:id="@+id/btnlogin"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="27dp"
+            android:background="@color/bluetrans"
+            android:text="Ingresar"
+            android:textColor="@android:color/background_light"
+            android:onClick="ingresar"/>
+        <Button
+            android:id="@+id/btnloginadmin"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@color/bluetrans"
+            android:text="ADMINISTRAR"
+            android:textColor="@android:color/background_light"
+            android:onClick="ingresaradmin"/>
+
+
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

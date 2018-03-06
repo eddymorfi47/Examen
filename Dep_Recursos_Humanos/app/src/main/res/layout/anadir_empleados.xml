@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.eddiemartnez.app.dep_recursos_humanos.activities.anadir_empleados">
+
+
+    <LinearLayout
+        android:background="@drawable/formulariobg"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/nombreempleado"
+            android:layout_width="380dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="68dp"
+            android:hint="Nombre Completo"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark" />
+        <EditText
+            android:id="@+id/docidentidad"
+            android:layout_width="380dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:hint="Documento de Identidad"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark" />
+        <EditText
+            android:id="@+id/codempleado"
+            android:layout_width="380dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:hint="Codigo de Empleado"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark" />
+        <EditText
+            android:id="@+id/departamento"
+            android:layout_width="380dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:hint="Departamento"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark" />
+        <EditText
+            android:id="@+id/numtel"
+            android:layout_width="380dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:hint="Numero Telefónico"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark" />
+
+        <Button
+            android:id="@+id/btnanadir"
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@color/bluetrans"
+            android:text="Añadir Empleado"
+            android:textColor="@android:color/background_light"
+            android:onClick="onClick"/>
+
+
+
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
